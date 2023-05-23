@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_san"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50dp"
+        android:gravity="right"
+        android:paddingRight="10dp" />
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAC"
+            style="@style/buttonsym"
+            android:text="AC" />
+
+        <Button
+            android:id="@+id/btnPlusMinus"
+            style="@style/buttonsym"
+            android:text="+/-" />
+
+        <Button
+            android:id="@+id/btnPercent"
+            style="@style/buttonsym"
+            android:text="%" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            style="@style/buttonsym"
+            android:text="/" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn7"
+            style="@style/button_style_border"
+            android:text="7"
+            />
+        <Button
+            android:id="@+id/btn8"
+            style="@style/button_style_border"
+            android:text="8"
+            />
+        <Button
+            android:id="@+id/btn9"
+            style="@style/button_style_border"
+            android:text="9"
+            />
+        <Button
+            android:id="@+id/btnX"
+            style="@style/buttonsym"
+            android:text="X"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn4"
+            style="@style/button_style_border"
+            android:text="4"
+            />
+        <Button
+            android:id="@+id/btn5"
+            style="@style/button_style_border"
+            android:text="5"
+            />
+        <Button
+            android:id="@+id/btn6"
+            style="@style/button_style_border"
+            android:text="6"
+            />
+        <Button
+            android:id="@+id/btnMinus"
+            style="@style/buttonsym"
+            android:text="-"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn1"
+            style="@style/button_style_border"
+            android:text="1"
+            />
+        <Button
+            android:id="@+id/btn2"
+            style="@style/button_style_border"
+            android:text="2"
+            />
+        <Button
+            android:id="@+id/btn3"
+            style="@style/button_style_border"
+            android:text="3"
+            />
+        <Button
+            android:id="@+id/btnPlus"
+            style="@style/buttonsym"
+            android:text="+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn0"
+            style="@style/button_style_border"
+            android:text="0"/>
+        <Button
+            android:id="@+id/btnTochka"
+            style="@style/button_style_border"
+            android:text="."
+            />
+        <Button
+            android:id="@+id/btnEqual"
+            style="@style/buttonsym"
+            android:text="="
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
